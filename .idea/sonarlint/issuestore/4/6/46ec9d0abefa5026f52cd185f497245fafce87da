@@ -1,0 +1,6 @@
+
+
+java:S25831"CChange this condition so that it does not always evaluate to "true"(¡ææúJ$8c547000-28b9-4c84-b18c-3877527cbd91
+	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ÿªùÿÿÿÿJ$be30d48e-701a-474e-9b38-da536ba68e19
+k	java:S1062"+Replace this use of System.out by a logger.(œûÃ¤şÿÿÿÿJ$cbd243be-d9cb-4c43-a666-b1b7ea586b92
+k	java:S1064"+Replace this use of System.out by a logger.(¶½ ºûÿÿÿÿJ$90920d5b-4967-40cb-82ea-7d0841b18c55

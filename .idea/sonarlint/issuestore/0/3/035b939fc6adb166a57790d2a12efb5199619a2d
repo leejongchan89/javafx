@@ -1,0 +1,38 @@
+
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡åÅ…üÿÿÿÿ8¿àÈ†‘2J$6010788f-083c-44ec-a48b-59bf346f37f1
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡åÅ…üÿÿÿÿ8ÀàÈ†‘2J$377240ed-7393-49f8-a5c6-fa7f2997047e
+“	java:S117b"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²áœÊ8ÀàÈ†‘2J$d7ac3e99-8ec4-4aec-b235-15e2671dd32f
+_
+java:S1643s"Use a StringBuilder instead.(¤ø›Õ8ÄàÈ†‘2J$b07a040f-fd9f-4616-9858-de20678d2721
+d
+java:S1643u"Use a StringBuilder instead.(ºÄÿ–ùÿÿÿÿ8ÄàÈ†‘2J$b0926f8a-4633-49d9-9a25-6d7dd27a18e6
+
+java:S1192j"KDefine a constant instead of duplicating this literal "&pageSize=" 5 times.(¤µÉP8ÄàÈ†‘2J$823f187f-19f6-46d8-bd16-51ae943ff275
+‘
+java:S1192i"NDefine a constant instead of duplicating this literal "<li><a href='" 5 times.(¢®©š8ÅàÈ†‘2J$33c48e2a-cfb8-4b1a-8025-42f2380a0569
+
+java:S1192i"MDefine a constant instead of duplicating this literal "?pageNumber=" 5 times.(¢®©š8ÅàÈ†‘2J$b54f903b-163e-468b-b72a-a72203693329
+ˆ	java:S107"AConstructor has 9 parameters, which is greater than 7 authorized.(¡åÅ…üÿÿÿÿ8ÊàÈ†‘2J$1faeb1f5-486a-4dd6-ad26-e790f9bb0bf4
+u
+java:S1144^"2Remove this unused private "getPagingHtml" method.(ÜÏ½Ø8ÌàÈ†‘2J$014246b1-d76a-4813-ae2d-a279ec64873b
+˜
+java:S1172"PRemove these unused method parameters "category01", "negotiation", "category02".(¡åÅ…üÿÿÿÿ8ÎàÈ†‘2J$76e6f7bc-fa27-4b2b-9000-17751eda449f
+~	java:S125'"<This block of commented-out lines of code should be removed.(±Ôí8ÑàÈ†‘2J$2a76e20b-f820-4f61-8893-e4c4ff08f2fa
+ƒ	java:S125["<This block of commented-out lines of code should be removed.(¨Ò£Çûÿÿÿÿ8ÔàÈ†‘2J$d22bdae7-a02f-468f-a435-002c63fcba8a
+~	java:S125f"<This block of commented-out lines of code should be removed.(ÌµÖš8ÔàÈ†‘2J$e4f2ef9a-456d-4b87-bada-1d18753c9ca3
+ƒ	java:S125|"<This block of commented-out lines of code should be removed.(ü…ÓÅûÿÿÿÿ8ÔàÈ†‘2J$14f67c07-97f0-47fb-ad44-204e273c76cd
+n	java:S106Š"+Replace this use of System.out by a logger.(Ş‰‰İ8ÕàÈ†‘2J$5771544f-0270-40e4-89ad-d3c6377898a1
+n	java:S106‹"+Replace this use of System.out by a logger.(¦âÿõ8ÖàÈ†‘2J$8d60cae6-e428-44fe-9ac9-68064a43b6ca
+n	java:S106Œ"+Replace this use of System.out by a logger.(ÊÛ¡8ÖàÈ†‘2J$e2645ebf-fd1c-41b0-aa5d-3dbc7f5e0a19
+s	java:S106"+Replace this use of System.out by a logger.(â›‡¸ÿÿÿÿÿ8ÖàÈ†‘2J$7da8e730-fa04-457c-b538-e5e988e3de25
+n	java:S106"+Replace this use of System.out by a logger.(Ò‹­º8ÖàÈ†‘2J$1cd46ae7-8ff4-4a97-b540-4c2bfbd850af
+n	java:S106"+Replace this use of System.out by a logger.(ÉÄæÙ8ÖàÈ†‘2J$7a5cc663-e451-42b0-8693-8ec688a60c70
+s	java:S106"+Replace this use of System.out by a logger.(³ÌÕÆùÿÿÿÿ8×àÈ†‘2J$9f5afbad-9a8c-4d08-8101-52da82e2b1d4
+n	java:S106‘"+Replace this use of System.out by a logger.(›Á°ª8×àÈ†‘2J$8a78e4de-f628-4907-a4c8-b87a9a2c2c99
+n	java:S106’"+Replace this use of System.out by a logger.( £Øé8×àÈ†‘2J$b6b27028-8b4a-4899-9037-46de28cf3bf7
+n	java:S106“"+Replace this use of System.out by a logger.(¥ò¼¨8ØàÈ†‘2J$b62b72e0-73a2-40d2-8144-9423301197ac
+s	java:S106•"+Replace this use of System.out by a logger.(È×şÿÿÿÿ8ØàÈ†‘2J$3e1ccb23-aea2-40ad-8eda-964548c2bb9a
+„	java:S125”"<This block of commented-out lines of code should be removed.(Îî·ãûÿÿÿÿ8ØàÈ†‘2J$f2eac94a-8a2e-41cd-95df-de7bae945ba9
+s	java:S106–"+Replace this use of System.out by a logger.(Çø„úÿÿÿÿ8ÙàÈ†‘2J$477a2485-e74e-4be6-9cd3-33eb3d8258f8
+s	java:S106—"+Replace this use of System.out by a logger.(Ç°‡îüÿÿÿÿ8ÙàÈ†‘2J$3119d326-0842-413a-a6a1-2ac09227fd17
+„	java:S125¥"<This block of commented-out lines of code should be removed.(°éŸóşÿÿÿÿ8ŞàÈ†‘2J$038f6a62-81ea-40e2-9938-4c06bc369a1f

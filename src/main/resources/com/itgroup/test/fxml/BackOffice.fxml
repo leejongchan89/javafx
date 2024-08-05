@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itgroup.test.controller.BackOfficeController">
+   <children>
+      <Button layoutX="274.0" layoutY="14.0" mnemonicParsing="false" text="수정" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="403.0" layoutY="14.0" mnemonicParsing="false" text="삭제" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="526.0" layoutY="14.0" mnemonicParsing="false" text="내려받기" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="690.0" layoutY="14.0" mnemonicParsing="false" text="종료" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Pane layoutX="28.0" layoutY="72.0" prefHeight="558.0" prefWidth="217.0">
+         <children>
+            <Label layoutX="88.0" layoutY="68.0" text="성별 분류" textAlignment="RIGHT">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <RadioButton fx:id="allRB" alignment="CENTER" layoutX="114.0" layoutY="106.0" mnemonicParsing="false" onAction="#btnSelect" selected="true" text="전체" textAlignment="CENTER">
+               <toggleGroup>
+                  <ToggleGroup fx:id="genderRBgroup" />
+               </toggleGroup>
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="menRB" alignment="CENTER" layoutX="114.0" layoutY="135.0" mnemonicParsing="false" onAction="#btnSelect" text="남성" textAlignment="CENTER" toggleGroup="$genderRBgroup">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="womenRB" alignment="CENTER" layoutX="114.0" layoutY="163.0" mnemonicParsing="false" onAction="#btnSelect" text="여성" textAlignment="CENTER" toggleGroup="$genderRBgroup">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+            <Label layoutX="40.0" layoutY="212.0" text="네고 가능 상품" textAlignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <CheckBox fx:id="negoCheck" alignment="CENTER" layoutX="78.0" layoutY="246.0" mnemonicParsing="false" onAction="#btnSelect" text="모아 보기" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font></CheckBox>
+            <Label layoutX="27.0" layoutY="292.0" text="아이템 카테고리" textAlignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <ComboBox fx:id="categoryCombo" layoutX="55.0" layoutY="328.0" onAction="#btnSelect" prefHeight="22.0" prefWidth="116.0" />
+         </children>
+      </Pane>
+      <Pane fx:id="pane" layoutX="245.0" layoutY="81.0" prefHeight="558.0" prefWidth="539.0">
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="27.0" layoutY="23.0" text="상품 목록">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TableView fx:id="itemTable" layoutX="27.0" layoutY="58.0" minHeight="274.0" minWidth="485.0" prefHeight="422.0" prefWidth="485.0">
+              <columns>
+                <TableColumn prefWidth="70.0" text="C1" />
+                <TableColumn prefWidth="77.0" text="C2" />
+                  <TableColumn prefWidth="105.0" text="C3" />
+                  <TableColumn prefWidth="104.0" text="C4" />
+                  <TableColumn prefWidth="127.0" text="C5" />
+                  <TableColumn prefWidth="127.0" text="C6" />
+                  <TableColumn prefWidth="111.0" text="C7" />
+                 <TableColumn prefWidth="111.0" text="C8" />
+                 <TableColumn prefWidth="111.0" text="C9" />
+                 <TableColumn prefWidth="111.0" text="C10" />
+                 <TableColumn prefWidth="111.0" text="C11" />
+                 <TableColumn prefWidth="111.0" text="C12" />
+                 <TableColumn prefWidth="111.0" text="C13" />
+                 <TableColumn prefWidth="111.0" text="C14" />
+                 <TableColumn prefWidth="111.0" text="C15" />
+                 <TableColumn prefWidth="111.0" text="C16" />
+                 <TableColumn prefWidth="111.0" text="C17" />
+                 <TableColumn prefWidth="111.0" text="C18" />
+              </columns>
+            </TableView>
+         <Pagination fx:id="pagination" currentPageIndex="1" layoutX="120.0" layoutY="484.0" minHeight="46.0" pageCount="10" prefHeight="46.0" prefWidth="299.0" />
+            <Label fx:id="pageStatus" layoutX="443.0" layoutY="32.0" text="총 51건(1/6)" textFill="#615d5d" />
+         <Label layoutX="841.0" layoutY="60.0" text="USER ID :">
+            <font>
+               <Font name="System Bold" size="12.0" />
+            </font></Label>
+         <Label fx:id="user_id" layoutX="841.0" layoutY="77.0" text="USER_ID" />
+         <Label layoutX="843.0" layoutY="108.0" text="BRAND :">
+            <font>
+               <Font name="System Bold" size="12.0" />
+            </font></Label>
+         <Label fx:id="brand" layoutX="843.0" layoutY="125.0" text="BRAND" />
+         <Label layoutX="843.0" layoutY="154.0" text="ITEM NAME :">
+            <font>
+               <Font name="System Bold" size="12.0" />
+            </font></Label>
+         <Label fx:id="item_name" layoutX="843.0" layoutY="171.0" text="ITEM_NAME" />
+         <Label layoutX="843.0" layoutY="202.0" text="ITEM SIZE / CONDITION :">
+            <font>
+               <Font name="System Bold" size="12.0" />
+            </font></Label>
+         <Label fx:id="item_size_condition" layoutX="843.0" layoutY="219.0" text="ITEM_SIZE / CONDITION" />
+         <Label layoutX="843.0" layoutY="254.0" text="PRICE :">
+            <font>
+               <Font name="System Bold" size="12.0" />
+            </font></Label>
+         <Label fx:id="price" layoutX="843.0" layoutY="271.0" text="PRICE 원" />
+         <Label layoutX="843.0" layoutY="306.0" text="CATEGORY :">
+            <font>
+               <Font name="System Bold" size="12.0" />
+            </font></Label>
+         <Label fx:id="category" layoutX="843.0" layoutY="323.0" text="CATEGORY01 &gt; 02 &gt; 03" />
+         </Pane>
+      <Pane layoutX="784.0" layoutY="80.0" prefHeight="558.0" prefWidth="465.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="25.0" layoutY="23.0" text="상품 출력 화면">
+               <font>
+                   <Font size="20.0" />
+               </font></Label>
+            <ImageView fx:id="itemView" accessibleRole="PARENT" fitHeight="282.0" fitWidth="242.0" layoutX="25.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true" smooth="false" />
+            <TextArea fx:id="item_descripton" editable="false" layoutX="25.0" layoutY="354.0" prefHeight="128.0" prefWidth="242.0" promptText="ITEM_DESCRIPTION" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

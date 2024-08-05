@@ -1,0 +1,106 @@
+
+„
+java:S4973"<Strings and Boxed types should be compared using "equals()".(ôŞŠ°úÿÿÿÿ8úê“¾2J$3dc780a3-42ad-4c23-8b19-33abdab9af29
+€
+java:S4973Ã"<Strings and Boxed types should be compared using "equals()".(ãïùó8ù£À2J$931fb1c1-67f1-42e2-870f-cd47c0f72255
+€
+java:S4973¬"<Strings and Boxed types should be compared using "equals()".(ãïùó8––•À2J$3dd63ad9-961e-495f-b75c-e654881cd631
+ 
+java:S11928"]Define a constant instead of duplicating this literal " and category02 = 'ìƒì˜' " 15 times.(Ïİ¤‡8ë“¾2J$02466610-e81d-44bf-bbd0-39a023989956
+¥
+java:S1192>"]Define a constant instead of duplicating this literal " and category02 = 'ì‹ ë°œ' " 15 times.(Êµ´‹ÿÿÿÿÿ8ë“¾2J$d7d789cf-dba9-4793-977e-b63e9adc2cc7
+¯
+java:S1192Ä"fDefine a constant instead of duplicating this literal " select count(*) as mycnt from items " 3 times.(¯á¿·ùÿÿÿÿ8–•À2J$a1c8c3f0-1208-4592-b114-f147766749fa
+Ù
+java:S1192 "•Define a constant instead of duplicating this literal " select item_num, category01, category02, category03, condition, item_size, brand, shipping_fee, price, negotiation, image01, image02, image03, item_name, item_description, item_inputdate, user_id, user_nickname " 3 times.(ïÆï‰8Øé‚À2J$6200b42a-95eb-4a8e-ac94-38b72a75f154
+¦
+java:S1192/"^Define a constant instead of duplicating this literal " where category02 = 'ëª¨ì' " 3 times.(ØÚ¶™ûÿÿÿÿ8–•À2J$75c192d1-209c-4269-80fd-5299ce1fc1e4
+’
+java:S1192("ODefine a constant instead of duplicating this literal "ì „ì²´ ë³´ê¸°" 19 times.(œµ”Ò8ë“¾2J$99d7a086-1459-4c5f-8f02-33ae4d8b3f85
+ 
+java:S1192<"]Define a constant instead of duplicating this literal " and category02 = 'ëª¨ì' " 15 times.(ñæäœ8ë“¾2J$a04eaa68-717b-4def-8dfa-55ca903dca94
+¹
+java:S1192#"qDefine a constant instead of duplicating this literal " rank() over(order by item_num desc) as ranking " 3 times.(©Íç¦şÿÿÿÿ8Ùé‚À2J$7a302442-406b-4dad-acf2-0621b41a0f06
+ 
+java:S1192-"^Define a constant instead of duplicating this literal " where category02 = 'í•˜ì˜' " 3 times.(Ÿşôf8–•À2J$e13c617d-96a0-40f3-88b5-5002f0c8540e
+ 
+java:S1192:"]Define a constant instead of duplicating this literal " and category02 = 'í•˜ì˜' " 15 times.(™åİ×8‚ë“¾2J$f8f986a5-8974-41df-855c-211ecfffbc29
+Ú
+java:S1192""–Define a constant instead of duplicating this literal " select item_num, category01, category02, category03, condition, item_size, brand, shipping_fee, price, negotiation, image01, image02, image03, item_name, item_description, item_inputdate, user_id, user_nickname, " 3 times.(‘ÜÀ8Úé‚À2J$d4a433f3-b4c7-4d6f-bfe9-d3fc3efcfb68
+ 
+java:S1192K"^Define a constant instead of duplicating this literal " where category01 = 'ë‚¨ì' " 3 times.(‹¿‚}8–•À2J$fa50be6c-9a43-48cf-b2ae-c60cddfe8ff6
+•
+java:S1192$"MDefine a constant instead of duplicating this literal " from items " 3 times.(ğ‰ûıÿÿÿÿ8Úé‚À2J$588a41a6-7065-434c-af35-1d447e86cdaf
+¡
+java:S11921"^Define a constant instead of duplicating this literal " where category02 = 'ì‹ ë°œ' " 3 times.(áâŸõ8 –•À2J$a0f702a4-44e6-4151-a4bd-043794594c96
+‘
+java:S1192!"IDefine a constant instead of duplicating this literal " from ( " 3 times.(¯‰ä€ùÿÿÿÿ8Úé‚À2J$3d8ebd79-8ad8-44d0-89be-f0631a666ac3
+¤
+java:S11924"\Define a constant instead of duplicating this literal " where negotiation = 'yes' " 3 times.(äŞÀüûÿÿÿÿ8 –•À2J$d4fbc0bc-b764-479f-90ab-3faac6c8393a
+¢
+java:S1192["ZDefine a constant instead of duplicating this literal " and negotiation = 'yes' " 6 times.(Ü¾“•øÿÿÿÿ8‚ë“¾2J$23ed6a75-1fa8-4ce6-86ae-5a75a48e1943
+¡
+java:S1192+"^Define a constant instead of duplicating this literal " where category02 = 'ìƒì˜' " 3 times.(ø÷µı8 –•À2J$3e86206e-f9d1-4a1c-9994-ccb64d59173e
+¦
+java:S1192p"^Define a constant instead of duplicating this literal " where category01 = 'ì—¬ì' " 3 times.(ïîĞúÿÿÿÿ8 –•À2J$69305895-56e2-471c-bf4f-265447bbf982
+“
+java:S2095ı"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ä×Óù8¡–•À2J$c8a9ada6-13a6-433a-b9bf-faefc0e64e7d
+“
+java:S2095‘"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ä×Óù8ƒ¤À2J$e5d7301a-ed42-4868-b4b6-4b0ca258db72
+“
+java:S2095¤"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ä×Óù8ƒ¤À2J$9137719d-c675-43c1-803f-f4055211c5dc
+“
+java:S2095–"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ä×Óù8ƒ¤À2J$1be717bf-966d-4093-a457-93c965cdcff9
+•
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 70 to the 15 allowed.(†­“8Şé‚À2J$ef34e98b-48d8-409a-a4a1-ccbf210779be
+~	java:S125'"<This block of commented-out lines of code should be removed.(Ü­¶ˆ8ë“¾2J$e33aff51-c005-4b80-939c-0d40470beaa1
+~	java:S125)"<This block of commented-out lines of code should be removed.(•¦ç8ë“¾2J$1d06c621-4ef4-4eb0-8919-6498784785e3
+~	java:S1256"<This block of commented-out lines of code should be removed.(äÃó¹8‘ë“¾2J$e8a672ab-f51b-4dca-8dbc-aaac34a3bb54
+~	java:S125N"<This block of commented-out lines of code should be removed.(¼êÈƒ8‘ë“¾2J$edd7ccc1-63ea-40e4-bea5-9eae3587e252
+~	java:S125P"<This block of commented-out lines of code should be removed.(•¦ç8’ë“¾2J$01f3bf82-0862-4278-b5c1-175c730d4225
+~	java:S125]"<This block of commented-out lines of code should be removed.(äÃó¹8’ë“¾2J$ff8e278c-de2c-42e3-93ce-418975adcb79
+~	java:S125s"<This block of commented-out lines of code should be removed.(¼êÈƒ8“ë“¾2J$56a9f7d4-e760-4b9e-8460-11bdb595a125
+~	java:S125u"<This block of commented-out lines of code should be removed.(•¦ç8“ë“¾2J$a26f70eb-5aaa-4afe-bd36-24aa9dc50288
+	java:S125‚"<This block of commented-out lines of code should be removed.(äÃó¹8”ë“¾2J$25e0e127-743c-4be0-bb5b-5e36191aaf9d
+s	java:S106’"+Replace this use of System.out by a logger.(È’âßıÿÿÿÿ8”ë“¾2J$702a07cc-52da-49fe-9525-d091e92ee402
+p
+java:S1125Ÿ"'Remove the unnecessary boolean literal.(‰ş¿¬øÿÿÿÿ8†ë“¾2J$93a8a854-5a1e-4305-8e6a-21cd65389571
+›
+java:S3776º"RRefactor this method to reduce its Cognitive Complexity from 70 to the 15 allowed.(œã’ÿÿÿÿÿ8©–•À2J$39c867d3-689e-425e-a317-c9207214259a
+	java:S125Æ"<This block of commented-out lines of code should be removed.(Ü­¶ˆ8•¤À2J$903cf935-034a-466c-86c5-3308397119f8
+	java:S125È"<This block of commented-out lines of code should be removed.(•¦ç8•¤À2J$0e730bad-8abe-4d90-b617-bc83e691fc0e
+	java:S125Õ"<This block of commented-out lines of code should be removed.(äÃó¹8•¤À2J$cb3eccc5-1936-4e76-9644-20a936eb9c8b
+	java:S125æ"<This block of commented-out lines of code should be removed.(¼êÈƒ8–¤À2J$8e9967e6-45aa-45df-9659-d70c469dff47
+	java:S125è"<This block of commented-out lines of code should be removed.(•¦ç8–¤À2J$09ba4ff6-a972-4c10-8601-d560a0ea4c33
+	java:S125õ"<This block of commented-out lines of code should be removed.(äÃó¹8–¤À2J$80beb8e5-35c2-428c-817d-a359f0e0a728
+	java:S125†"<This block of commented-out lines of code should be removed.(¼êÈƒ8—¤À2J$53d89f69-f4f8-4c54-8093-eca7dd6114c2
+	java:S125ˆ"<This block of commented-out lines of code should be removed.(•¦ç8—¤À2J$afab48f4-bf22-4f14-9bff-ec9ed7e02620
+	java:S125•"<This block of commented-out lines of code should be removed.(äÃó¹8—¤À2J$fbc5aef0-4eaa-41df-8f7f-efbe92acc015
+p
+java:S1125¨"'Remove the unnecessary boolean literal.(óİş“ÿÿÿÿÿ8‹¤À2J$fcd553d3-61fd-459f-8721-cc5966576aa4
+p
+java:S1125‚"'Remove the unnecessary boolean literal.(«Ú©ºıÿÿÿÿ8’¤À2J$89284a35-e5fa-4e4e-ab43-5d729c4ad2d5
+–	java:S100¢"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÓ…Îşÿÿÿÿ8“¤À2J$a8bda834-4ad5-4220-b617-4c0863a2611e
+›
+java:S3776¢"RRefactor this method to reduce its Cognitive Complexity from 70 to the 15 allowed.(õÓ…Îşÿÿÿÿ8”¤À2J$e3a7775d-9b2f-4dd3-a647-317fbcf3cca4
+	java:S125¯"<This block of commented-out lines of code should be removed.(Ü­¶ˆ8·–•À2J$e83df15e-6914-40c1-8633-fe377d53bb81
+	java:S125±"<This block of commented-out lines of code should be removed.(•¦ç8·–•À2J$6037a694-c264-4cd3-a6e9-591e29638fc3
+	java:S125¾"<This block of commented-out lines of code should be removed.(äÃó¹8·–•À2J$d6c94cd1-ae3b-45b7-b0f5-7c54d90e7936
+	java:S125Ï"<This block of commented-out lines of code should be removed.(¼êÈƒ8¸–•À2J$fa446b43-9117-41a9-8494-7dab885470c8
+	java:S125Ñ"<This block of commented-out lines of code should be removed.(•¦ç8¸–•À2J$73c0472b-7886-49e1-952e-3ab5b50a5db5
+	java:S125Ş"<This block of commented-out lines of code should be removed.(äÃó¹8¸–•À2J$3459c652-99a1-4769-aeb4-77f82378f37e
+	java:S125ï"<This block of commented-out lines of code should be removed.(¼êÈƒ8¹–•À2J$4d9d6314-cfe3-4880-99b7-aa13e520949a
+	java:S125ñ"<This block of commented-out lines of code should be removed.(•¦ç8¹–•À2J$dd680bcb-66a1-4e6d-807c-33532bcea0f1
+	java:S125ş"<This block of commented-out lines of code should be removed.(äÃó¹8¹–•À2J$c43d02ba-8869-48ee-8c6b-b76fcee690e4
+s	java:S106Œ"+Replace this use of System.out by a logger.(£¿¦Ûûÿÿÿÿ8˜¤À2J$1196c0ac-ae33-4af8-8df7-881dcccec167
+n	java:S106"+Replace this use of System.out by a logger.(Â–‘ö8˜¤À2J$a26976aa-42db-461d-8c8f-5a22879e262f
+p
+java:S1125”"'Remove the unnecessary boolean literal.(«Ú©ºıÿÿÿÿ8º–•À2J$5df59ef9-9e04-4e96-832e-1549df723e65
+u
+java:S1128"-Remove this unused import 'javafx.fxml.FXML'.(ÃÚ¢„şÿÿÿÿ8ÅãˆÀ2J$8c442644-b574-4ba3-9794-b741ba9409d4
+Š
+java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 132 to 64, Complexity from 55 to 14, Nesting Level from 3 to 2, Number of Variables from 12 to 6.(†­“8ùé‚À2J$d065d357-bc87-493c-9305-bf61aeb7a9f2
+
+java:S6541º"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 113 to 64, Complexity from 55 to 14, Nesting Level from 3 to 2, Number of Variables from 10 to 6.(œã’ÿÿÿÿÿ8¼–•À2J$3d5c0244-471c-4497-89f5-bf832c26a1e2
+
+java:S6541¢"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 117 to 64, Complexity from 55 to 14, Nesting Level from 3 to 2, Number of Variables from 11 to 6.(õÓ…Îşÿÿÿÿ8Ÿ¤À2J$90eeeca3-0a5a-4084-a09c-9b5676d4f433
